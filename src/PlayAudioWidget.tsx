@@ -10,8 +10,6 @@ export default class PlayAudioWidget extends Component<PlayAudioWidgetContainerP
         const fileId = this.props.fileId.displayValue;
         return <PlayAudio
                 fileId={fileId}
-                style={this.props.style}
-                className={this.props.class}
                 tabIndex={this.props.tabIndex}
                 />
     }

@@ -1,21 +1,19 @@
 /**
  * This file was generated from PlayAudioWidget.xml
  * WARNING: All changes made to this file will be overwritten
- * @author Mendix UI Content Team
+ * @author Mendix Widgets Framework Team
  */
-import { CSSProperties } from "react";
 import { EditableValue } from "mendix";
+import { Big } from "big.js";
 
 export interface PlayAudioWidgetContainerProps {
     name: string;
-    class: string;
-    style?: CSSProperties;
-    tabIndex: number;
-    fileId: EditableValue<BigJs.Big>;
+    tabIndex?: number;
+    id: string;
+    fileId: EditableValue<Big>;
 }
 
 export interface PlayAudioWidgetPreviewProps {
-    class: string;
-    style: string;
+    readOnly: boolean;
     fileId: string;
 }
