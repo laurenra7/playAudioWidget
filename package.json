@@ -10,7 +10,7 @@
   },
   "license": "Apache-2.0",
   "config": {
-    "projectPath": "C:\\Users\\laurenra\\Documents\\Mendix\\BYUEmergencyAlerts-main-test",
+    "projectPath": "C:\\Users\\laurenra\\Documents\\Mendix\\BYUEmergencyAlerts-main",
     "mendixHost": "http://localhost:8080",
     "developmentPort": "3000"
   },
